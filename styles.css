@@ -1,0 +1,20 @@
+/* Center the video container both vertically and horizontally */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: Background color for the entire page */
+}
+
+/* Style the video container if needed */
+.video-container {
+    position: relative;
+}
+
+/* Style the video element if needed */
+#infiniteVideo {
+    max-width: 100%; /* Optional: Make sure the video doesn't exceed the viewport width */
+    max-height: 100%; /* Optional: Make sure the video doesn't exceed the viewport height */
+}
